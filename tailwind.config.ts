@@ -8,9 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      container: {
+        padding: "20px",
+        center: true,
+      },
+      dropShadow: {
+        custom: "0 2px 0px rgba(0, 0, 0, 0.05)",
+      },
+      colors: {},
+      fontFamily: {
+        main: ["var(--font-mont)"],
+        secondary: ["var(--font-roboto)"],
       },
     },
   },
